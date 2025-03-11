@@ -18,7 +18,7 @@
             return;
         }
 
-        const response = await fetch('https://your-server-url/validate-key', {
+        const response = await fetch('https://key-system-server.onrender.com/validate-key', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ key })
